@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "crypotto-terraform"
+    bucket = "potto-terraform"
     key    = "prod/terraform.tfstate"
     region = "eu-west-1"
   }
